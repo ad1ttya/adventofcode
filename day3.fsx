@@ -1,7 +1,7 @@
 open System
 open System.IO
 
-let file = File.ReadAllText @"C:\Workspace\adventofcode\adv3.txt"
+let file = File.ReadAllText "inputs/day3.txt"
 
 let mutable positions = ""
 let mutable x = 0
